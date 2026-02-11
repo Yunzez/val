@@ -5,10 +5,15 @@ import App from './App';
 import Celebration from './pages/Celebration';
 import { ThemeStyles } from './style';
 
-const router = createBrowserRouter([
-  { path: '/', element: <App /> },
-  { path: '/celebration', element: <Celebration /> },
-]);
+const router = createBrowserRouter(
+  [
+    { path: '/', element: <App /> },
+    { path: '/celebration', element: <Celebration /> }
+  ],
+  {
+    basename: import.meta.env.BASE_URL
+  }
+);
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
