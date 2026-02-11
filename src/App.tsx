@@ -110,7 +110,7 @@ export default function App() {
         ))}
         <div className="proposal-body">
           <p className="subline">February 14, 2026 • A very important question</p>
-          <h1>Sophie, will you be my Valentine?</h1>
+          <h1>Sophie Levitt, will you be my Valentine!?</h1>
           <img className="begging-gif" src={beggingGifUrl} alt="Pleading animated bear with big eyes" loading="lazy" />
           <div className="valentine-buttons">
             <span style={yesWrapperStyle}>
